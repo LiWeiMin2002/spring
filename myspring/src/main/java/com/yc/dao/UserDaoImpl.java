@@ -2,6 +2,7 @@ package com.yc.dao;
 
 
 import org.myframework.annotation.YcRepository;
+import org.myframework.annotation.YcService;
 
 /**
  * @program: spring学习
@@ -10,6 +11,7 @@ import org.myframework.annotation.YcRepository;
  * @create: 2023-07-28 09:34
  */
 @YcRepository   //"userDaoImpl"  --->  对象
+@YcService
 public class UserDaoImpl implements UserDao {
 
     @Override
