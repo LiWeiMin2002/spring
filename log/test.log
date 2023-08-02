@@ -1,0 +1,8 @@
+15:32:58.996 INFO  org.myframework.context.YcAnnotationConfigApplicationContext 57 <init> - com.yc.MyConfig类上有@YcComponentScan注解，它要扫描的路径：com.yc
+15:32:59.000 TRACE org.myframework.context.YcAnnotationConfigApplicationContext 172 recursiveLoadBeanDefinition - 当前正在递归加载：/C:/IDEA/springstudy/myspring/target/classes/com/yc
+15:32:59.001 TRACE org.myframework.context.YcAnnotationConfigApplicationContext 220 findPackageClasses - 递归：C:\IDEA\springstudy\myspring\target\classes\com\yc\dao，他对应的包名为：com.yc.dao
+15:32:59.004 INFO  org.myframework.context.YcAnnotationConfigApplicationContext 233 findPackageClasses - 加载到一个待托管的类：com.yc.MyConfig
+15:32:59.005 TRACE org.myframework.context.YcAnnotationConfigApplicationContext 220 findPackageClasses - 递归：C:\IDEA\springstudy\myspring\target\classes\com\yc\service，他对应的包名为：com.yc.service
+15:32:59.008 INFO  org.myframework.context.YcAnnotationConfigApplicationContext 233 findPackageClasses - 加载到一个待托管的类：com.yc.service.UserBizImpl
+15:32:59.010 TRACE org.myframework.context.YcAnnotationConfigApplicationContext 149 createBean - spring容器托管了：com.yc.MyConfig==>com.yc.MyConfig
+15:32:59.010 TRACE org.myframework.context.YcAnnotationConfigApplicationContext 149 createBean - spring容器托管了：userBizImpl==>com.yc.service.UserBizImpl
