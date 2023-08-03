@@ -58,12 +58,12 @@ public class YcAnnotationConfigApplicationContext implements YcApplicationContex
                 }
                 //开始扫描这些basePackages包下的bean，并加载包装成BeanDefinition对象，存到beanDefinitionMap
                 recursiveLoadBeanDefinition(basePackages);
-                System.out.println("结果集：" + beanDefintionMap);
             }
             //循环beanDefinitionMap，创建bean（是否为懒加载、是单例），存到beanMap
             createBean();
             //循环所有托管的beanMap中的bean，看属性和方法上是否有@Autowired，@Resource，@Value......，考虑DI
             doDi();
+            logger.info("结果集：" + beanDefintionMap);
         } catch (ClassNotFoundException e) {
             e.printStackTrace();
         } catch (IllegalAccessException e) {

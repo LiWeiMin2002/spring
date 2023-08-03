@@ -15,7 +15,6 @@ public class MrzhTool {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-
         //获取第一次喷发、第二次喷发的时间
         System.out.print("请输入第一次喷发时间：");
         Timestamp timestamp1 = Timestamp.valueOf(scanner.nextLine());

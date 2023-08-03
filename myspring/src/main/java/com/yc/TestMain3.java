@@ -13,7 +13,6 @@ import org.myframework.context.YcApplicationContext;
 public class TestMain3 {
     public static void main(String[]args) throws ClassNotFoundException {
         YcApplicationContext ac=new YcAnnotationConfigApplicationContext(MyConfig.class);
-        System.out.println("容器创建成功");
         UserBiz ub=(UserBiz)ac.getBean("userBizImpl");
         ub.add("张三");
     }

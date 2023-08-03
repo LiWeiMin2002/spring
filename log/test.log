@@ -1,10 +1,11 @@
-16:05:00.813 INFO  org.myframework.context.YcAnnotationConfigApplicationContext 57 <init> - com.yc.MyConfig类上有@YcComponentScan注解，它要扫描的路径：com.yc
-16:05:00.817 TRACE org.myframework.context.YcAnnotationConfigApplicationContext 172 recursiveLoadBeanDefinition - 当前正在递归加载：/C:/IDEA/springstudy/myspring/target/classes/com/yc
-16:05:00.817 TRACE org.myframework.context.YcAnnotationConfigApplicationContext 220 findPackageClasses - 递归：C:\IDEA\springstudy\myspring\target\classes\com\yc\dao，他对应的包名为：com.yc.dao
-16:05:00.820 INFO  org.myframework.context.YcAnnotationConfigApplicationContext 233 findPackageClasses - 加载到一个待托管的类：com.yc.dao.UserDaoImpl
-16:05:00.822 INFO  org.myframework.context.YcAnnotationConfigApplicationContext 233 findPackageClasses - 加载到一个待托管的类：com.yc.MyConfig
-16:05:00.822 TRACE org.myframework.context.YcAnnotationConfigApplicationContext 220 findPackageClasses - 递归：C:\IDEA\springstudy\myspring\target\classes\com\yc\service，他对应的包名为：com.yc.service
-16:05:00.823 INFO  org.myframework.context.YcAnnotationConfigApplicationContext 233 findPackageClasses - 加载到一个待托管的类：com.yc.service.UserBizImpl
-16:05:00.826 TRACE org.myframework.context.YcAnnotationConfigApplicationContext 149 createBean - spring容器托管了：userDaoImpl==>com.yc.dao.UserDaoImpl
-16:05:00.826 TRACE org.myframework.context.YcAnnotationConfigApplicationContext 149 createBean - spring容器托管了：com.yc.MyConfig==>com.yc.MyConfig
-16:05:00.826 TRACE org.myframework.context.YcAnnotationConfigApplicationContext 149 createBean - spring容器托管了：userBizImpl==>com.yc.service.UserBizImpl
+09:07:23.688 INFO  org.myframework.context.YcAnnotationConfigApplicationContext 57 <init> - com.yc.MyConfig类上有@YcComponentScan注解，它要扫描的路径：com.yc
+09:07:23.691 TRACE org.myframework.context.YcAnnotationConfigApplicationContext 172 recursiveLoadBeanDefinition - 当前正在递归加载：/C:/IDEA/springstudy/myspring/target/classes/com/yc
+09:07:23.692 TRACE org.myframework.context.YcAnnotationConfigApplicationContext 220 findPackageClasses - 递归：C:\IDEA\springstudy\myspring\target\classes\com\yc\dao，他对应的包名为：com.yc.dao
+09:07:23.696 INFO  org.myframework.context.YcAnnotationConfigApplicationContext 233 findPackageClasses - 加载到一个待托管的类：com.yc.dao.UserDaoImpl
+09:07:23.698 INFO  org.myframework.context.YcAnnotationConfigApplicationContext 233 findPackageClasses - 加载到一个待托管的类：com.yc.MyConfig
+09:07:23.698 TRACE org.myframework.context.YcAnnotationConfigApplicationContext 220 findPackageClasses - 递归：C:\IDEA\springstudy\myspring\target\classes\com\yc\service，他对应的包名为：com.yc.service
+09:07:23.699 INFO  org.myframework.context.YcAnnotationConfigApplicationContext 233 findPackageClasses - 加载到一个待托管的类：com.yc.service.UserBizImpl
+09:07:23.701 TRACE org.myframework.context.YcAnnotationConfigApplicationContext 149 createBean - spring容器托管了：userDaoImpl==>com.yc.dao.UserDaoImpl
+09:07:23.701 TRACE org.myframework.context.YcAnnotationConfigApplicationContext 149 createBean - spring容器托管了：com.yc.MyConfig==>com.yc.MyConfig
+09:07:23.702 TRACE org.myframework.context.YcAnnotationConfigApplicationContext 149 createBean - spring容器托管了：userBizImpl==>com.yc.service.UserBizImpl
+09:07:23.703 INFO  org.myframework.context.YcAnnotationConfigApplicationContext 66 <init> - 结果集：{userDaoImpl=YcBeanDefintion{isLazy=false, scope='singleton', isPrimary=false, classInfo='com.yc.dao.UserDaoImpl'}, com.yc.MyConfig=YcBeanDefintion{isLazy=false, scope='singleton', isPrimary=false, classInfo='com.yc.MyConfig'}, userBizImpl=YcBeanDefintion{isLazy=false, scope='singleton', isPrimary=false, classInfo='com.yc.service.UserBizImpl'}}
